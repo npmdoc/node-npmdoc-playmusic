@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"playmusic",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "playmusic",
+    "description": "api documentation for [playmusic (v2.2.1)](https://www.github.com/jamon/playmusic) [![npm package](https://img.shields.io/npm/v/npmdoc-playmusic.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-playmusic) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-playmusic.svg)](https://travis-ci.org/npmdoc/node-npmdoc-playmusic)",
     "devDependencies": {
-        "playmusic": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "playmusic": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-playmusic",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-playmusic",
+    "keywords": [
+        "documentation",
+        "playmusic"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_playmusic.js",
+    "name": "npmdoc-playmusic",
+    "nameAlias": "npmdoc_playmusic",
+    "nameOriginal": "npmdoc-playmusic",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-playmusic"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
