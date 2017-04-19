@@ -1,9 +1,14 @@
-# api documentation for  [playmusic (v2.2.1)](https://www.github.com/jamon/playmusic)  [![npm package](https://img.shields.io/npm/v/npmdoc-playmusic.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-playmusic) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-playmusic.svg)](https://travis-ci.org/npmdoc/node-npmdoc-playmusic)
+# npmdoc-playmusic
+
+#### api documentation for  [playmusic (v2.2.1)](https://www.github.com/jamon/playmusic)  [![npm package](https://img.shields.io/npm/v/npmdoc-playmusic.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-playmusic) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-playmusic.svg)](https://travis-ci.org/npmdoc/node-npmdoc-playmusic)
+
 #### Node JS Google Play Music API.  Supports All Access
 
-[![NPM](https://nodei.co/npm/playmusic.png?downloads=true)](https://www.npmjs.com/package/playmusic)
+[![NPM](https://nodei.co/npm/playmusic.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/playmusic)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-playmusic/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-playmusic_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-playmusic/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-playmusic/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-playmusic/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-playmusic/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-playmusic/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-playmusic/build/screenCapture.npmPackageListing.svg)
 
@@ -18,12 +23,10 @@
 {
     "author": {
         "name": "Jamon Terrell",
-        "email": "playmusic@jamonterrell.com",
         "url": "https://github.com/jamon/"
     },
     "bugs": {
-        "url": "https://github.com/jamon/playmusic/issues",
-        "email": "playmusic@jamonterrell.com"
+        "url": "https://github.com/jamon/playmusic/issues"
     },
     "dependencies": {
         "crypto-js": ">= 3.1",
@@ -49,13 +52,11 @@
     "main": "play",
     "maintainers": [
         {
-            "name": "jamon",
-            "email": "npm@jamonterrell.com"
+            "name": "jamon"
         }
     ],
     "name": "playmusic",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jamon/playmusic.git"
@@ -64,16 +65,6 @@
     "version": "2.2.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module playmusic](#apidoc.module.playmusic)
-
-
-
-# <a name="apidoc.module.playmusic"></a>[module playmusic](#apidoc.module.playmusic)
 
 
 
