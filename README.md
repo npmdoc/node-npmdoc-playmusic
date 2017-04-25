@@ -1,6 +1,6 @@
 # npmdoc-playmusic
 
-#### api documentation for  [playmusic (v2.2.1)](https://www.github.com/jamon/playmusic)  [![npm package](https://img.shields.io/npm/v/npmdoc-playmusic.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-playmusic) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-playmusic.svg)](https://travis-ci.org/npmdoc/node-npmdoc-playmusic)
+#### basic api documentation for  [playmusic (v2.2.1)](https://www.github.com/jamon/playmusic)  [![npm package](https://img.shields.io/npm/v/npmdoc-playmusic.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-playmusic) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-playmusic.svg)](https://travis-ci.org/npmdoc/node-npmdoc-playmusic)
 
 #### Node JS Google Play Music API.  Supports All Access
 
@@ -62,7 +62,8 @@
         "url": "git+https://github.com/jamon/playmusic.git"
     },
     "scripts": {},
-    "version": "2.2.1"
+    "version": "2.2.1",
+    "bin": {}
 }
 ```
 
